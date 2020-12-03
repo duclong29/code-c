@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>code snippet</title>
+    <style>
+        input:required{
+            outline:1px red solid;
+            color:green;
+        }
+        input:required:valid{
+            background-size:10px10px;
+            background-position:right top;
+            background-repeat:no-repeat;
+        }
+        input:required:valid{
+            background-size:10px10px;
+            background-position:right top;
+            background-repeat:no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <from method="get" action="try.php">
+        name: <input type="text" name="name" required="true"/><br />
+        Email:<input type="email" name="emailid" required="true"/>
+        <input type="submit" value="submit"/>
+    </from>
+</body>
+</html>
