@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script>
+        function Multiply(var1, var2, var3)
+        {return (var1 *var2 *var3);}
+        document.write(+Multiply(10,10,8));
+        document.write();
+        var Multiply = function (var1, var2, var3)
+        {return (var1 * var2 *var3);}
+        document.write(+Multiply(10,10,8));
+        document.write();
+        (function (){
+            document.write()
+        });    function Multiply(var1, var2, var3)
+        {return (var1 *var2 *var3);}
+        document.write(+Multiply(10,10,8));
+        document.write();
+        var Multiply = function (var1, var2, var3)
+        {return (var1 * var2 *var3);}
+        document.write(+Multiply(10,10,8));
+        document.write();
+        (function (){
+            document.write()
+        });
+        $(document).ready(function(){
+            $.fn.myFunction=function(){
+                alert();
+            }
+            $().click(function(){
+                $.fn.myFunction();
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="div1"><h2>Function in jQuery</h2></div>
+<button type="button" class="call-btn">Click Me</button>
+</body>
+</html>
