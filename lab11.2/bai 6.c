@@ -30,15 +30,4 @@ main()
 	}while(chon != 2);
 	  	
 }
-float s(float a, float b)
-{
-	float s;
-	s = a*b;
-	return s;
-}
-float c(float a, float b)
-{
-	float c;
-	c = (a+b)*2;
-	return c;
-}
+
